@@ -1,4 +1,7 @@
 {
   "buildCommand": "cd bilheteira && npm install && npm run build",
-  "outputDirectory": "bilheteira/dist"
+  "outputDirectory": "bilheteira/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
 }

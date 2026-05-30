@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+/* Base mobile-first */
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /* Animações leves */
 @keyframes slideUp {
   from { opacity: 0; transform: translateY(20px); }
@@ -33,9 +46,11 @@
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.hover-lift:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+@media (hover: hover) {
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
 }
 
 /* Button glow */
@@ -53,6 +68,7 @@
 /* Input focus */
 input:focus, select:focus, textarea:focus {
   transition: border-color 0.2s ease;
+  font-size: 16px; /* Prevent zoom on iOS */
 }
 
 /* Selection */
@@ -77,4 +93,26 @@ input:focus, select:focus, textarea:focus {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #6366f1;
+}
+
+/* Mobile safe area */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* Line clamp */
+.line-clamp-1 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

@@ -17,8 +17,8 @@ export default function InstallPrompt() {
     if (dismissed) {
       const dismissedDate = new Date(dismissed)
       const now = new Date()
-      // Show again after 7 days
-      if ((now - dismissedDate) < 7 * 24 * 60 * 60 * 1000) {
+      // Show again after 1 hour
+      if ((now - dismissedDate) < 60 * 60 * 1000) {
         return
       }
     }
