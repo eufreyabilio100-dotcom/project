@@ -1,0 +1,27 @@
+{
+  "name": "Bilheteira - Venda de Bilhetes",
+  "short_name": "Bilheteira",
+  "description": "Compre bilhetes digitais para eventos em Moçambique",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#4F46E5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["entertainment", "events"],
+  "lang": "pt"
+}
