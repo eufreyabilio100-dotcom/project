@@ -1,6 +1,4 @@
 {
-  "rootDirectory": "bilheteira",
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "framework": "vite"
+  "buildCommand": "cd bilheteira && npm install && npm run build",
+  "outputDirectory": "bilheteira/dist"
 }
