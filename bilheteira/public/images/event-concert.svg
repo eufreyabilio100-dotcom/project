@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  <circle cx="400" cy="200" r="120" fill="#16213e" stroke="#e94560" stroke-width="3"/>
+  <circle cx="400" cy="200" r="80" fill="#0f3460" stroke="#e94560" stroke-width="2"/>
+  <circle cx="400" cy="200" r="40" fill="#e94560"/>
+  <path d="M380 180 L380 220 L420 200Z" fill="white"/>
+  <text x="400" y="350" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">CONCERTO</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" fill="#1a1a2e"/>
+  <rect x="250" y="100" width="300" height="200" rx="10" fill="#16213e" stroke="#4f46e5" stroke-width="2"/>
+  <rect x="280" y="130" width="240" height="20" rx="5" fill="#4f46e5" opacity="0.5"/>
+  <rect x="280" y="160" width="180" height="15" rx="5" fill="#4f46e5" opacity="0.3"/>
+  <rect x="280" y="185" width="200" height="15" rx="5" fill="#4f46e5" opacity="0.3"/>
+  <rect x="280" y="210" width="160" height="15" rx="5" fill="#4f46e5" opacity="0.3"/>
+  <circle cx="400" cy="80" r="30" fill="#4f46e5"/>
+  <path d="M390 70 L390 90 L410 80Z" fill="white"/>
+  <text x="400" y="350" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">CONFERÊNCIA</text>
+</svg>

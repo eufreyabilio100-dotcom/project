@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" fill="#0d1b2a"/>
+  <circle cx="400" cy="200" r="100" fill="none" stroke="#e0e1dd" stroke-width="3"/>
+  <path d="M400 100 L400 300" stroke="#e0e1dd" stroke-width="2"/>
+  <path d="M300 200 L500 200" stroke="#e0e1dd" stroke-width="2"/>
+  <circle cx="400" cy="200" r="30" fill="#e0e1dd"/>
+  <path d="M350 150 Q400 100 450 150" stroke="#e0e1dd" stroke-width="2" fill="none"/>
+  <path d="M350 250 Q400 300 450 250" stroke="#e0e1dd" stroke-width="2" fill="none"/>
+  <text x="400" y="350" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">DESPORTO</text>
+</svg>

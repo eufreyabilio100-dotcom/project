@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" fill="none">
+  <rect width="800" height="400" fill="#2d1b69"/>
+  <circle cx="200" cy="100" r="60" fill="#ff6b6b" opacity="0.6"/>
+  <circle cx="600" cy="150" r="80" fill="#4ecdc4" opacity="0.5"/>
+  <circle cx="400" cy="300" r="100" fill="#ffe66d" opacity="0.4"/>
+  <path d="M350 200 L400 150 L450 200 L400 250Z" fill="#ff6b6b"/>
+  <path d="M300 180 L350 130 L400 180 L350 230Z" fill="#4ecdc4" opacity="0.7"/>
+  <path d="M400 180 L450 130 L500 180 L450 230Z" fill="#ffe66d" opacity="0.7"/>
+  <text x="400" y="350" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">FESTA</text>
+</svg>
