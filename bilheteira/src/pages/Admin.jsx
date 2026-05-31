@@ -40,9 +40,13 @@ export default function Admin() {
   }
 
   async function fetchData() {
-    const { data: eventsData } = await supabase.from('events').select('*').order('date', { ascending: false })
-    const { data: ticketsData } = await supabase.from('tickets').select('*, events(title), profiles(full_name, phone, id, email)')
-    const { data: profilesData } = await supabase.from('profiles').select('*').order('created_at', { ascending: false })
+    const { data: eventsData, error: eventsError } = await supabase.from('events').select('*').order('date', { ascending: false })
+    const { data: ticketsData, error: ticketsError } = await supabase.from('tickets').select('*, events(title), profiles(full_name, phone, id)')
+    const { data: profilesData, error: profilesError } = await supabase.from('profiles').select('*').order('created_at', { ascending: false })
+
+    if (eventsError) console.error('Erro eventos:', eventsError)
+    if (ticketsError) console.error('Erro bilhetes:', ticketsError)
+    if (profilesError) console.error('Erro perfis:', profilesError)
 
     const totalTickets = ticketsData?.reduce((sum, t) => sum + t.quantity, 0) || 0
     const totalRevenue = ticketsData?.reduce((sum, t) => sum + Number(t.total_price), 0) || 0
