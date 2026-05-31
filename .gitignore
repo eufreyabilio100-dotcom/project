@@ -26,3 +26,8 @@ dist-ssr
 # Ignorar pasta de orientações do utilizador
 leia so pra entender o que eu quero/
 
+# Ignorar relatórios e scripts de geração de relatórios
+gerar-relatorio.mjs
+*.docx
+*.pdf
+
